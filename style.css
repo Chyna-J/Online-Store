@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -47,3 +45,35 @@ p {
 body {
   width: 100%;
 }
+/*Header Start*/
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #E3E6F3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li{/*List */
+  list-style: none;
+  padding: 0 20px;
+
+}
+
+#navbar li a{ /*List and Anchor*/
+  text-decoration: none; /*Text-decoration helps get rid of underlined words*/
+  font-size: 16px;
+  font-weight: 600; /*Text weight can work the same as bolding the font*/
+}
+/*Home Page*/
+/*Shop Page*/
+/*Single Product*/
+/*Blog Page*/
+/*About Page*/
