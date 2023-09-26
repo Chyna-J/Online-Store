@@ -64,6 +64,7 @@ body {
 #navbar li{/*List */
   list-style: none;
   padding: 0 20px;
+  position: relative;
 
 }
 
@@ -71,6 +72,23 @@ body {
   text-decoration: none; /*Text-decoration helps get rid of underlined words*/
   font-size: 16px;
   font-weight: 600; /*Text weight can work the same as bolding the font*/
+  color: #1a1a1a;
+  transition: 0.3s ease; /*Gives color transitions time to ease into color change*/
+}
+
+#navbar li a:hover,
+#navbar li a.active{ /*a:hover gives text a different color when cursor hovers over text*/
+  color: #088178;
+}
+
+#navbar li a.active :: after{
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
 }
 /*Home Page*/
 /*Shop Page*/
