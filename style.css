@@ -292,11 +292,35 @@ font-size: 16px;
   color: #fff2e5;
   font-size: 30px;
   padding: 10px 0;
-  }
+}
 
-  #banner h2 span{
-    color: #ef3636
-    }
+#banner h2 span{
+  color: #ef3636
+}
+
+#banner button:hover{
+background-color: #088178;
+color: #fff;
+}
+
+#sm-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(img/banner/b17.jpg);
+  min-width: 580px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
 /*Shop Page*/
 /*Single Product*/
 /*Blog Page*/
