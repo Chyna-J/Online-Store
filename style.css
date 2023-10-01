@@ -350,24 +350,24 @@ font-weight: 300;
   font-weight: 800;
   }
 
-  #sm-banner span{
+#sm-banner span{
     color: #fff;
     font-size: 14px;
     font-weight: 500;
     padding-bottom: 15px;
-  }
+}
 
-  #sm-banner .banner-box:hover button{
+#sm-banner .banner-box:hover button{
     background: #088178;
     border: 1px solid #088178;
-  }
+}
 
-  #banner3{
+#banner3{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 80px;
-  }
+}
 
 #banner3 .banner-box{
   display: flex;
@@ -382,6 +382,14 @@ font-weight: 300;
   padding: 20px;
 }
 
+#banner3 .banner-box2{
+  background-image: url(img/banner/b4.jpg);
+}
+  
+#banner3 .banner-box3{
+  background-image: url(img/banner/b18.jpg);
+}
+
 #banner3 h2{
   color: #fff;
   font-weight: 900;
@@ -392,6 +400,91 @@ font-weight: 300;
   color: #ec544e;
   font-weight: 800;
   font-size: 15px;
+}
+
+#newsletter{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+background-image: url(img/banner/b14.jpg);
+background-repeat: no-repeat;
+background-position: 20% 30%;
+background-color: #041e42;
+}
+
+#newsletter h4{
+font-size: 22px;
+font-weight: 700;
+color: #fff;
+}
+
+#newsletter p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea0;
+}
+
+#newsletter p span{
+  color: #ffbd27;
+}
+#newsletter .form{
+  display: flex;
+  width: 40%;
+}
+
+#newsletter input{
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+background-color: #088178;
+color: #fff;
+white-space: nowrap;
+border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col{
+  display: flex;
+flex-direction:column;
+align-items: flex-start;
+margin-bottom: 20px;
+}
+
+footer .logo{
+  margin-bottom: 30px;
+}
+
+footer h4{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p{
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a{
+  font-size: 14px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom:10px;
 }
 /*Shop Page*/
 /*Single Product*/
