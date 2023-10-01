@@ -546,7 +546,7 @@ footer .copyright{
     transition: 0.3s;
   }
 
-  #navbar.active{
+  #navbar .active{
     right: 0px;
   }
   #navbar li{
@@ -562,5 +562,12 @@ footer .copyright{
     color: #1a1a1a;
     font-size:24px;
     padding-left:20px;
+}
+#close{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: #222;
+  font-size: 24px;
 }
 }
