@@ -121,7 +121,7 @@ body {
   left: 20px;
 }
 
-#moblie{
+#mobile{
   display: none;
   align-items: center;
 }
@@ -187,11 +187,11 @@ margin-bottom: 10px;
 
 #feature .fe-box h6{
   display: inline-block;
-padding: 9px 8px 6px 8px;
-line-height: 1;
-border-radius: 4px;
-color: #088178;
-background-color:#fddde4;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color:#fddde4;
 }
 
 #feature .fe-box:nth-child(2) h6{ /*Make sure all lines that include the ':' are close to the text, it won't read otherwise*/
@@ -546,19 +546,19 @@ footer .copyright{
     transition: 0.3s;
   }
 
-  #navbar .active{
+#navbar:active{
     right: 0px;
   }
-  #navbar li{
+#navbar li{
     margin-bottom: 25px;
   }
   
-  #moblie{
+#mobile{
     display: flex;
     align-items: center;
   }
 
-  #moblie i{
+#mobile i{
     color: #1a1a1a;
     font-size:24px;
     padding-left:20px;
@@ -569,5 +569,8 @@ footer .copyright{
   left: 30px;
   color: #222;
   font-size: 24px;
+}
+#lg-bag{
+  display: none;
 }
 }
