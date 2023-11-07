@@ -529,7 +529,7 @@ footer .copyright{
 /*About Page*/
 /*Cart Page*/
 /*Media Query*/
-@media (min-width:799px) {
+@media (max-width:1020px) { /*Set max-width to laptop size = 900+px, not 799px*/
   #navbar {
     display: flex;
     flex-direction: column;
@@ -546,31 +546,31 @@ footer .copyright{
     transition: 0.3s;
   }
 
-#navbar.active{
+  #navbar.active{ /*Navbar still not toggling, might need to go a different route*/
     right: 0px;
   }
-#navbar li{
+  #navbar li{
     margin-bottom: 25px;
   }
   
-#mobile{
+  #mobile{
     display: flex;
     align-items: center;
   }
 
-#mobile i{
+  #mobile i{
     color: #1a1a1a;
     font-size:24px;
     padding-left:20px;
 }
-#close{
+  #close{
   position: absolute;
   top: 30px;
   left: 30px;
   color: #222;
   font-size: 24px;
 }
-#lg-bag{
+  #lg-bag{
   display: none;
 }
 }
