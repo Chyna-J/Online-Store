@@ -546,7 +546,7 @@ footer .copyright{
     transition: 0.3s;
   }
 
-  #navbar.active{ /*Navbar still not toggling, might need to go a different route*/
+  #navbar .active{ /*Navbar still not toggling, might need to go a different route*/
     right: 0px;
   }
   #navbar li{
