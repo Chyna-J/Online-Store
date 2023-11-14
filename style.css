@@ -547,7 +547,7 @@ footer .copyright{
   }
 
   #navbar .active{ /*Navbar still not toggling, might need to go a different route*/
-    right: 0px;
+    left: 0px;
   }
   #navbar li{
     margin-bottom: 25px;
