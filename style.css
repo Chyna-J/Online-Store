@@ -536,7 +536,7 @@ footer .copyright{
     justify-content: flex-start;
     position: fixed;
     top: 0px;
-    right: -300px;
+    right: -300;
     height: 100vh;
     width: 300px;
     background-color:#E3E6F3 ;
