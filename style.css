@@ -545,9 +545,8 @@ footer .copyright{
     transition: 0.3s;
   }
 
-  #navbar .active {
+  #navbar.active { /*".active" had a space between it*/
     right: 0px;
-    color: #088178;
   }
 
   #navbar li{
@@ -566,7 +565,7 @@ footer .copyright{
     cursor: pointer;
   }
 
-  /*#close{
+  #close{
   position: absolute;
   top: 30px;
   left: 30px;
@@ -576,5 +575,5 @@ footer .copyright{
 
   #lg-bag{
   display: none;
-  }*/
+  }
 }
